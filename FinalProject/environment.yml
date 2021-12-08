@@ -2,11 +2,6 @@ name: example-environment
 channels:
   - conda-forge
 dependencies:
-  - python
+  - pandas
   - numpy
-  - pip:
-    - pandas
-    - matplotlib
-    - ipywidgets
-    - bqplot
-  
+  - bqplot
