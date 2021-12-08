@@ -1,7 +1,12 @@
-   
 name: example-environment
+channels:
+  - conda-forge
 dependencies:
-   - python==3.7.10
-   - numpy
-  - matplotlib
-  - pandas
+  - python
+  - numpy
+  - pip:
+    - pandas
+    - matplotlib
+    - ipywidgets
+    - bqplot
+    
